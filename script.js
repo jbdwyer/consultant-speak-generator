@@ -1,3 +1,5 @@
-const testString = 'I like New York in June.  How about you?'
-
-console.log(testString);
+const buzzwordNouns = [];
+const buzzwordAdjectives = [];
+const buzzwordVerbs = [];
+const buzzwordPastVerbs = [];
+const sentenceStructures = [];
