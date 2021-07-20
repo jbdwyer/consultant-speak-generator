@@ -1,4 +1,5 @@
-const buzzwordNouns = [];
+const buzzwordNouns = ['enterprise', 'culture', 'idiom', 'context', 'team', 'journey', 'mindspace', 'strategy', 'scrum', 'warroom', 'headquarters', 'objective', 'opportunity', 'vernacular', 'center of excellence', 'c-suite', 'leadership', 'resource', 'people', 'customer', 'competitor', 'collaborator', 'tactic', 'spirit guide', 'colleague', 'process', 'capability', 'model', 'consideration set', 'best alternative to a negotiated solution', 'engagement', 'settlement', 'black belt', 'six sigma', 'lean', 'toyota way', 'theory of constraints', 'theory of unreasonable demands', 'profit'];
+const buzzwardPluralNouns = ['enterprises', 'cultures', 'idioms', 'contexts', 'teams', 'journeys', 'mindspaces', 'scrums', 'warrooms', 'objectives', 'opportunities', 'vernaculars', 'centers of excellence', 'c-suites', 'resources', 'customers', 'competitors', 'collaborators', 'tactics', 'spirit guides', 'colleagues', 'processes', 'capabilities', 'models', 'consideration sets', 'best alternatives to a negotiated solution', 'engagements', 'settlements']
 const buzzwordAdjectives = [];
 const buzzwordVerbs = [];
 const buzzwordPastVerbs = [];
