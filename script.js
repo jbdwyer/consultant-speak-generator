@@ -46,7 +46,7 @@ const businessFunctionSelector = (word) => {
     return businessFunctions[Math.floor(Math.random()*businessFunctions.length)];
 }
 
-const sentenceStructures = [`The ${businessFunctionSelector()} department has struggled with ${adjectiveSelector()} ${pluralNounSelector()}.  As a result they will ${verbSelector()} their ${pluralNounSelector()}.`, `Sometimes when facing ${pluralNounSelector()} you will need to either ${verbSelector()} your ${pluralNounSelector()} or ${adverbSelector()} ${verbSelector()} your ${nounSelector()}.`, `If your ${pluralNounSelector()} are ${adverbSelector()} ${pastVerbSelector()}, it might be time to consider ${presentVerbSelector()} your ${pluralNounSelector()}.`];
+const sentenceStructures = [`The ${businessFunctionSelector()} department has struggled with ${adjectiveSelector()} ${pluralNounSelector()}.  As a result they will ${verbSelector()} their ${pluralNounSelector()}.`, `Sometimes when facing ${pluralNounSelector()} you will need to either ${verbSelector()} your ${pluralNounSelector()} or ${adverbSelector()} ${verbSelector()} your ${nounSelector()}.`, `If your ${pluralNounSelector()} are ${adverbSelector()} ${pastVerbSelector()}, it might be time to consider ${presentVerbSelector()} your ${pluralNounSelector()}.`,`I am certain that you could ${verbSelector()} your ${pluralNounSelector()}, even if your ${nounSelector()} has been ${adverbSelector()} ${pastVerbSelector()}.`, `Don't get ${pastVerbSelector()}.  There is still an opportunity to ${adverbSelector()} ${verbSelector()} your ${pluralNounSelector()}.`];
 
 const sentenceStructureSelector = (sentence) => {
     return sentenceStructures[Math.floor(Math.random()*sentenceStructures.length)];
